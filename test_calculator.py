@@ -1,3 +1,7 @@
+# https://github.com/zyagci/lab11-ZY-AR
+# Partner 1: 
+# Partner 2: 
+
 import unittest
 from calculator import *
 
