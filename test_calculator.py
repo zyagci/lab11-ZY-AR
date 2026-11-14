@@ -1,6 +1,6 @@
 # https://github.com/zyagci/lab11-ZY-AR
-# Partner 1: 
-# Partner 2: 
+# Partner 1: Zeynep Yagci
+# Partner 2: Afifa Rahman
 
 import unittest
 from calculator import *
