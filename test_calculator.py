@@ -17,9 +17,14 @@ class TestCalculator(unittest.TestCase):
     ######## Partner 1
     def test_multiply(self): # 3 assertions
         self.assertEqual(mul(3,4), 12)
+        self.assertEqual(mul(5,3), 15)
+        self.assertEqual(mul(11,9), 99)
+
 
     def test_divide(self): # 3 assertions
-        self.assertEqual(div(20, 4), 5)
+        self.assertEqual(div(4, 20), 5)
+        self.assertEqual(div(5, 35), 7)
+        self.assertEqual(div(2, 6), 3)
 
     ######## Partner 2
     # def test_divide_by_zero(self): # 1 assertion
@@ -43,12 +48,15 @@ class TestCalculator(unittest.TestCase):
 
     def test_hypotenuse(self): # 3 assertions
         self.assertEqual(hypotenuse(-3,4), 5)
+        self.assertEqual(hypotenuse(5, 12), 13)
+        self.assertEqual(hypotenuse(6, 8), 10)
 
     def test_sqrt(self): # 3 assertions
         with self.assertRaises(ValueError):
             square_root(-1)
 
-        self.assertEqual(square_root(4), 2)
+        self.assertEqual(square_root(9), 3)
+        self.assertEqual(square_root(16), 4)
 
     ##########################
 

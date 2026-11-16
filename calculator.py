@@ -10,14 +10,12 @@ Defines functions used to create a simple calculator.
 import math
 
 def square_root(a):
-    try:
-        if a <= 0:
-            raise ValueError("Input cannot be less than zero.")
-        return math.sqrt(a)
-    except ValueError as e:
-        return f"Error: {e}"
+    if a <= 0:
+        raise ValueError("Input cannot be less than zero.")
+    return math.sqrt(a)
 
-def hypotenuse(a, b)
+
+def hypotenuse(a, b):
     try:
         return math.hypot(abs(a), abs(b))
     except Exception as e:
