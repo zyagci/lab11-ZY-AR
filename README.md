@@ -1,8 +1,5 @@
-# How to use this Lab 11 repository template:
-## Steps:
+# Lab 11: Software Engineering Basics
+## Overview:
 
-- In the top right corner, there is a green button that says "Use this template". Click on this.
-- Click "Create in a new repository"
-- Name the new repository lab11-[Partner1 Initials]-[Partner2 Initials]
-    **- Make sure to set this new repository as Public!**
-- Click "Create repository"
+- This lab focuses on practicing basic Git commands and the integrated GitHub environment, including resolving simple merge conflicts.
+- The calculator.py file contains basic arithmetic functions, while test_calculator.py implements unit tests to ensure that exceptions are handled gracefully.
