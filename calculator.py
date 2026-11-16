@@ -4,6 +4,20 @@
 
 import math
 
+def square_root(a):
+    try:
+        if a <= 0:
+            raise ValueError("Input cannot be less than zero.")
+        return math.sqrt(a)
+    except ValueError as e:
+        return f"Error: {e}"
+
+def hypotenuse(a, b)
+    try:
+        return math.hypot(abs(a), abs(b))
+    except Exception as e:
+        raise ValueError(f"Invalid input for hypotenuse: {e}")
+
 def add(a, b):
     return a + b
 
